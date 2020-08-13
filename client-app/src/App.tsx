@@ -16,7 +16,7 @@ class App extends Component {
           values: response.data
         })
     })
-
+    
     this.setState({
       values: [{id: 1, name: 'Value 101'}, {id: 2, name: 'Value 102'}]
     })
